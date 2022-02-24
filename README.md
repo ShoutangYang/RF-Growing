@@ -105,7 +105,7 @@ RIDE 是官方开发并推荐使用的 RF 测试用例开发环境，完成 Robo
 
 远程库接口由Remote库提供，Remote库是从Robot Framework 2.1开始的标准库之一。该库没有自己的任何关键字，但它作为核心框架和其他地方实现的关键字之间的代理。远程库通过远程服务器与实际库实现交互，远程库和服务器使用XML-RPC通道上的简单远程协议进行通信。所有这些的高级架构如下图所示：
 
-![imgae ](./Resource/picture/RemoteServer.jpg)
+![imgae ](./Resource/picture/RemoteServer.JPG)
 
 此架构通过测试节点作为远程服务器，采用的代理模式实现，此模式需要以下3部分实现：
 1. Remote Library 远程测试库，作为客户端去调用真正的测试用例；
