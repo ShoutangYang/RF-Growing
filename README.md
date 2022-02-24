@@ -182,7 +182,7 @@ Robot Framework remote server at 150.168.1.79:8270 started.
 1. 测试套件设置
 
 
-在library添加Remove，并设置IP、端口和设置别名；
+在library添加Remote，并设置IP、端口和设置别名,如下图所示；
 
 ![IMAGE](./Resource/picture/RemoteConfig.JPG)
 
